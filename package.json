@@ -1,6 +1,6 @@
 {
-  "name": "helixjs",
-  "version": "1.0.3",
+  "name": "helix-loop",
+  "version": "1.0.4",
   "description": "quick and dirty game loop",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Problematic/helix.js.git"
+    "url": "git://github.com/Problematic/helix-loop.git"
   },
   "keywords": [
     "game",
@@ -17,9 +17,9 @@
   "author": "Derek Stobbe <djstobbe@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Problematic/helix/issues"
+    "url": "https://github.com/Problematic/helix-loop/issues"
   },
-  "homepage": "https://github.com/Problematic/helix.js",
+  "homepage": "https://github.com/Problematic/helix-loop",
   "devDependencies": {
     "chai": "^1.10.0",
     "mocha": "^2.1.0"
