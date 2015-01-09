@@ -62,14 +62,14 @@ Helix.prototype._loop = function () {
         this.lag = lagCap;
     }
 
-    this.emit('preUpdate');
+    this.emit('preUpdate', delta);
     var updateInterval = this.options.updateInterval;
     while (this.lag >= updateInterval) {
         this.tick++;
         this.emit('update', updateInterval / 1000);
         this.lag -= updateInterval;
     }
-    this.emit('postUpdate');
+    this.emit('postUpdate', delta);
 
     this.emit('render', this.lag / updateInterval);
 };
