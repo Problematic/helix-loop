@@ -2,8 +2,14 @@
 
 Simple game loop management
 
+## Installation
+
+`npm install helixjs`
+
+## Usage
+
 ```javascript
-var helix = new (require('helix'))({
+var helix = new (require('helixjs'))({
     updateInterval: 1000 / 60  // 60 fps, about 16 ms per tick
 });
 

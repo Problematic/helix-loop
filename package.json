@@ -1,6 +1,6 @@
 {
-  "name": "helix",
-  "version": "1.0.0",
+  "name": "helixjs",
+  "version": "1.0.1",
   "description": "quick and dirty game loop",
   "main": "index.js",
   "scripts": {
